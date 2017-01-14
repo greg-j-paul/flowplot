@@ -3,7 +3,8 @@ Title: Slightly better display version of RiverPlot
 Version: 0.0.0.9000
 Authors@R: person("Greg", "Paul", email = "first.last@example.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
-Depends: R (>= 3.2.4)
+Depends:
+    R (>= 3.2.4)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
@@ -12,5 +13,5 @@ Imports:
     dplyr (>= 0.4.3),
     RColorBrewer (>= 1.1.2),
     ggplot2 (>= 2.2.0),
-    FField ( >= 0.1.0)
-
+    FField (>= 0.1.0)
+RoxygenNote: 5.0.1
